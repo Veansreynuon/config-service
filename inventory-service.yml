@@ -1,5 +1,4 @@
-  config:
-    import: optional:configserver:http://localhost:8084
+spring:
   profiles:
     active: git
   datasource:
